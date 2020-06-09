@@ -103,7 +103,7 @@ public class GameManager : MonoBehaviour
     {
         if (countProp == countTotal)
         {
-            final.alpha = 1;
+            final.alpha = 1;           //顯示結束畫面 啟動互動 啟動遮擋
             final.interactable = true;
             final.blocksRaycasts = true;
             textTitle.text = "你成功惹!";
@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
     {
         if (gameTime == 0)
         {
-            final.alpha = 1;
+            final.alpha = 1;          //顯示結束畫面 啟動互動 啟動遮擋
             final.interactable = true;
             final.blocksRaycasts = true;
             textTitle.text = "挑戰失敗!";
